@@ -19,7 +19,6 @@ A comprehensive chatbot application designed for medical consultations and infor
     - [Backend Usage](#backend-usage)
     - [Frontend Usage](#frontend-usage)
   - [Docker Usage](#docker-usage)
-- [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
 
