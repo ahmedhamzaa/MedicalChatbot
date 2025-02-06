@@ -80,8 +80,11 @@ Set up environment variables:
 ```
 4. **Create a .env file in the Backend directory.**
 Add necessary environment variables:
+
 MONGODB_URI: Your MongoDB Atlas connection string.
+
 [Other environment variables as needed]
+
 ## Frontend Installation
 1. **Navigate to the frontend directory:**
 
@@ -92,13 +95,18 @@ cd MedicalChatbot/Frontend/medical-chatbot
 2. **Install dependencies:**
 
 
-
+```
 npm install
+
+```
 3. **Set up environment variables:**
 
 Create a .env file in the medical-chatbot directory.
+
 4. **Add necessary environment variables:**
-REACT_APP_BACKEND_URL: URL of your backend 
+
+REACT_APP_BACKEND_URL: URL of your backend
+
 [Other environment variables as needed]
 
 ## Docker Installation
