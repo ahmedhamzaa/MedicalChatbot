@@ -178,4 +178,4 @@ MedicalChatbot/
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
 ### License
-This project is licensed under the 1  Apache 2.0 License - see the LICENSE 2  file for details. (Create a LICENSE file in your project root with the Apache 2.0 license text.)
+This project is licensed under the 1  Apache 2.0 License. 
