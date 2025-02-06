@@ -47,7 +47,7 @@ The MedicalChatbot project aims to provide an accessible and informative platfor
   - React 
   - Node.js and npm 
   - Socket.IO Client 
-  - UI Library: 
+  - UI Library: Bootstarp 5
 - **Database:** MongoDB Atlas
 - **Docker:** For containerization and simplified deployment.
 
