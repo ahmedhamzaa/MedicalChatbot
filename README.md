@@ -30,25 +30,24 @@ The MedicalChatbot project aims to provide an accessible and informative platfor
 ## Features
 
 - **Interactive Chat Interface:** Engage in real-time conversations with the chatbot through WebSockets.
-- **Medical Information Retrieval:** Access a knowledge base of medical information.
-- **AI-Powered Assistance:** Utilize AI for preliminary assessments and guidance (Note: This is not a substitute for professional medical advice).
+- **AI-Powered Assistance:** Utilize AI for preliminary assessments and guidance (Note: to be implemented).
 - **User Authentication (Potentially):** Secure user accounts for personalized interactions.
-- **Data Privacy (Considerations):** [Add a section on data privacy measures and compliance with regulations like HIPAA if applicable. This is crucial for medical applications.]
+- **Data Privacy (Considerations):**
 
 ## Technologies Used
 
 - **Backend (Python - FastAPI):**
-  - Python (Specify version used, e.g., 3.9+)
+  - Python 3.9
   - FastAPI
   - Uvicorn (ASGI server)
   - Motor (MongoDB driver)
   - WebSockets (through FastAPI)
-  - Other libraries: (List other key libraries like NLP libraries, etc.)
+  - Other libraries: 
 - **Frontend (React):**
-  - React (Specify version used, e.g., 18+)
-  - Node.js and npm (Specify versions if possible)
-  - Socket.IO Client (for WebSocket communication)
-  - UI Library: (e.g., Material UI, Ant Design - if used)
+  - React 
+  - Node.js and npm 
+  - Socket.IO Client 
+  - UI Library: 
 - **Database:** MongoDB Atlas
 - **Docker:** For containerization and simplified deployment.
 
@@ -61,21 +60,24 @@ The MedicalChatbot project aims to provide an accessible and informative platfor
 1. **Clone the repository:**
    ```
    git clone [https://github.com/ahmedhamzaa/MedicalChatbot.git]
-   cd MedicalChatbot/Backend 
+   cd MedicalChatbot/Backend
+   ```
 2. **Create a virtual environment (recommended):**
 
 
-
+```
 python3 -m venv venv
 source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate    # Windows
+
+```
 3. **Install dependencies:**
 
 
-
+```
 pip install -r requirements.txt
 Set up environment variables:
-
+```
 4. **Create a .env file in the Backend directory.**
 Add necessary environment variables:
 MONGODB_URI: Your MongoDB Atlas connection string.
@@ -83,9 +85,10 @@ MONGODB_URI: Your MongoDB Atlas connection string.
 ## Frontend Installation
 1. **Navigate to the frontend directory:**
 
-
+```
 
 cd MedicalChatbot/Frontend/medical-chatbot
+```
 2. **Install dependencies:**
 
 
@@ -95,84 +98,59 @@ npm install
 
 Create a .env file in the medical-chatbot directory.
 4. **Add necessary environment variables:**
-REACT_APP_BACKEND_URL: URL of your backend (e.g., http://localhost:8000 for local development).
+REACT_APP_BACKEND_URL: URL of your backend 
 [Other environment variables as needed]
 
 ## Docker Installation
 Build the Docker images:
 
-
+```
 
 cd MedicalChatbot
 docker-compose build
+```
 Set up environment variables:
 
 Create a .env file in the root of the project.
 Add necessary environment variables:
 MONGODB_URI: Your MongoDB Atlas connection string.
-REACT_APP_BACKEND_URL: http://backend:8000 (within the Docker network).
+REACT_APP_BACKEND_URL: http://backend:8000 .
 [Other environment variables as needed]
 Usage
 Manual Usage
 Backend Usage
 Activate the virtual environment (if not already activated):
 
-
+```
 
 source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate    # Windows
+
+```
 Run the backend server:
 
-
+```
 
 uvicorn main:app --reload  # For development with hot reloading
-Frontend Usage
+
+```
+## Frontend Usage
 Start the development server:
 
-
+```
 cd MedicalChatbot/Frontend/medical-chatbot
 npm start
-Docker Usage
+```
+## Docker Usage
 Start the Docker containers:
 
-
+```
 
 cd MedicalChatbot
 docker-compose up -d  # -d for detached mode (runs in the background)
+```
 Access the application: Open your web browser and go to the specified URL (usually http://localhost:3000 for React development servers).
 
-## Project Structure
-
-MedicalChatbot/
-├── Backend/
-│   ├── app/                # Main application logic
-│   │   ├── __init__.py
-│   │   └── ...
-│   ├── .env                # Environment variables (not committed to Git)
-│   ├── Dockerfile          # Docker configuration
-│   ├── main.py            # Entry point for the backend
-│   ├── requirements.txt   # Backend dependencies
-│   └── ...
-├── Frontend/
-│   └── medical-chatbot/
-│       ├── node_modules/    # Frontend dependencies
-│       ├── public/
-│       │   └── index.html
-│       ├── src/
-│       │   ├── components/
-│       │   │   └── ...
-│       │   ├── App.js
-│       │   ├── index.js
-│       │   └── ...
-│       ├── .gitignore       # Files ignored by Git
-│       ├── Dockerfile      # Docker configuration
-│       ├── package-lock.json
-│       ├── package.json
-│       └── ...
-├── venv/                   # Python virtual environment (not committed to Git)
-├── docker-compose.yml     # Docker Compose configuration
-├── .gitignore             # Main project .gitignore
-└── README.md              # This file
 
 ### Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
