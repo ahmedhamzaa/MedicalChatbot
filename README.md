@@ -4,6 +4,9 @@ Markdown
 
 A comprehensive chatbot application designed for medical consultations and information dissemination. This project utilizes a modern architecture with a FastAPI backend (Python) for REST API and WebSocket communication, a React frontend, and MongoDB Atlas for data persistence.  It offers a user-friendly interface for interacting with medical information and AI-driven assistance.
 
+## Note :
+**In the second stage, AI integration will involve fine-tuning an open-source LLM, such as DeepSeek R1, using a medical dataset. This process will incorporate real-time reinforcement learning, allowing the model to continuously update with new scientific articles and research findings.**
+
 ## Table of Contents
 
 - [Introduction](#introduction)
