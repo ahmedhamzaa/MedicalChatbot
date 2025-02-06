@@ -24,7 +24,7 @@ A comprehensive chatbot application designed for medical consultations and infor
 
 ## Introduction
 
-The MedicalChatbot project aims to provide an accessible and informative platform for users seeking medical advice or information. It leverages a combination of natural language processing (NLP) and potentially machine learning models to understand user queries and provide relevant responses.  This README provides a guide to setting up and running the project, along with details about its architecture and components.  It utilizes WebSockets for real-time communication and REST APIs for other data exchange.
+The MedicalChatbot project aims to provide an accessible and informative platform for users seeking medical advice or information. It leverages a combination of natural language processing (NLP) and potentially machine learning models to understand user queries and provide relevant responses ( in the second stage of the project ).  This README provides a guide to setting up and running the project, along with details about its architecture and components.  It utilizes WebSockets for real-time communication and REST APIs for other data exchange.
 
 ## Features
 
