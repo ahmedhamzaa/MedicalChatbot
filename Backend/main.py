@@ -23,7 +23,7 @@ app.add_middleware(
     allow_headers=["*"],  # Allows all headers
 )
 # MongoDB Connection
-MONGO_URL = "mongodb+srv://ahmedhamza0601:DqmILxA9Os6BPikH@cluster0.hpmu2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" # Replace this with your MongoDB connection string
+MONGO_URL = "mongodb+srv://user:password@cluster0.hpmu2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" # Replace this with your MongoDB connection string
 DB_NAME = "MedicalChatbot"
 client = AsyncIOMotorClient(MONGO_URL)
 db = client[DB_NAME]
